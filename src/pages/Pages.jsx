@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './home/Home'
 import Cuisines from './cuisines/Cuisines';
 import Meals from './meals/Meals';
@@ -15,6 +15,7 @@ function Pages() {
   return (
     <div>
         <Routes>
+            <Route path='/food' element={<Navigate to='/' />} />
             <Route path='/' element={<Home />} />
             <Route path='/cuisines' element={<Cuisines />} />
             <Route path='/cuisine/:Type' element={<Cuisine />} />
