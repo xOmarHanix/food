@@ -1,0 +1,453 @@
+.diet-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 60px auto;
+    width: 90%;
+}
+
+.diet-items .diet-links {
+    position: relative;
+    width: 320px;
+    height: 210px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.diet-items .diet-links .diet-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    z-index: 2;
+    text-align: center;
+    display: none;
+}
+
+.diet-items .diet-links:hover .diet-overlay {
+    display: block;
+}
+
+.diet-items .diet-links .diet-overlay button {
+    outline: none;
+    padding: 8px 35px;
+    background: rgba(0, 0, 0, 0.1);
+    color: red;
+    border: 3px solid #111;
+    font-size: 16px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.diet-items .diet-links img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.diet-box .diet-text {
+    text-align: center;
+}
+
+.diet-box .diet-text h3 {
+    color: rgb(161, 124, 124);
+    margin-top: 10px;
+    font-weight: 600;
+    color: #965586;
+
+}
+
+@media only screen and (min-width : 1600px) {
+    .diet-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width : 1445px) {
+    .diet-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 1395px) {
+    .diet-items .diet-links {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : 1310px) {
+    .diet-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1275px) {
+    .diet-items .diet-links {
+        width: 280px;
+        height: 190px;
+    }
+    .diet-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 1210px) {
+    .diet-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 1175px) {
+    .diet-items .diet-links {
+        width: 260px;
+        height: 170px;
+    }
+    .diet-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 1130px) {
+    .diet-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1110px) {
+    .diet-items .diet-links {
+        width: 260px;
+        height: 170px;
+    }
+    .diet-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 1110px) {
+    .diet-items .diet-links {
+        width: 320px;
+        height: 210px;
+    }
+    .diet-box {
+        grid-template-columns: repeat(3, 1fr);
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 1060px) {
+    .diet-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 1040px) {
+    .diet-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 1020px) {
+    .diet-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .diet-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 995px) {
+    .diet-items .diet-links {
+        width: 300px;
+        height: 200px;
+    }
+    .diet-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+    .diet-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 940px) {
+    .diet-items .diet-links {
+        width: 280px;
+        height: 180px;
+    }
+    .diet-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 940px) {
+
+    .diet-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 920px) {
+
+    .diet-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 985px) {
+
+    .diet-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 980px) {
+    .diet-items .diet-links {
+        width: 260px;
+        height: 160px;
+    }
+    .diet-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+
+    .diet-box {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 890px) {
+
+    .diet-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 870px) {
+
+    .diet-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 850px) {
+
+    .diet-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 830px) {
+
+    .diet-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 825px) {
+    .diet-items .diet-links {
+        width: 240px;
+        height: 140px;
+    }
+    .diet-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 790px) {
+    .diet-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 780px) {
+    .diet-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 780px) {
+    .diet-items .diet-links {
+        width: 330px;
+        height: 210px;
+    }
+    .diet-box {
+        grid-template-columns: repeat(2, 1fr);
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 760px) {
+    .diet-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 740px) {
+    .diet-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 710px) {
+    .diet-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 690px) {
+    .diet-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 680px) {
+    .diet-items .diet-links {
+        width: 310px;
+        height: 200px;
+    }
+    .diet-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 660px) {
+    .diet-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+    .diet-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 645px) {
+    .diet-items .diet-links {
+        width: 280px;
+        height: 180px;
+    }
+    .diet-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 620px) {
+    .diet-box {
+        width: 94%;
+    }
+    .diet-items .diet-links {
+        width: 260px;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width : 595px) {
+    .diet-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 585px) {
+    .diet-items .diet-links {
+        width: 240px;
+        height: 140px;
+    }
+    .diet-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 580px) {
+    .diet-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+    .diet-box {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 540px) {
+    .diet-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 540px) {
+    .diet-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 520px) {
+    .diet-items .diet-links {
+        width: 220px;
+        height: 140px;
+    }
+    .diet-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .diet-items .diet-links {
+        width: 200px;
+        height: 120px;
+    }
+    .diet-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .diet-items .diet-links {
+        width: 200px;
+        height: 120px;
+    }
+    .diet-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 435px) {
+    .diet-items .diet-links {
+        width: 320px;
+        height: 210px;
+        margin: auto;
+    }
+    .diet-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+}
+
+@media only screen and (max-width : 350px) {
+    .diet-items .diet-links {
+        width: 280px;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .diet-items .diet-links {
+        width: 240px;
+        height: 120px;
+    }
+}
+

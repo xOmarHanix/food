@@ -1,0 +1,125 @@
+.cuisine {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    gap: 60px;
+    align-items: center;
+}
+
+.cuisine .cuisine-imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: -1px -1px 2px #ccc;
+    
+}
+
+.cuisine .cuisine-imgs .img-box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.cuisine .cuisine-imgs .img-box img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cuisine .cuisine-text {
+    text-align: center;
+}
+
+.cuisine .cuisine-text h2 {
+    color: #966589;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cuisine .cuisine-text h4 {
+    color: #73848e;
+    font-weight: 500;
+}
+
+.cuisine .cuisine-text button {
+    border: 1px solid #111;
+    outline: none;
+    background-color: #fff;
+    padding: 8px 20px;
+    margin-top: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 1100px) {
+    .cuisine .cuisine-imgs .img-box {
+        width: 200px;
+        height: 125px;
+    }
+}
+
+@media only screen and (max-width : 785px) {
+    .cuisine .cuisine-imgs .img-box {
+        width: 125px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width : 635px) {
+    .cuisine .cuisine-imgs .img-box {
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width : 585px) {
+    .cuisine .cuisine-imgs .img-box {
+        display: none;
+    }
+    .cuisine-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        width: 100%;
+    }
+    .cuisine-text h4 {
+        width: 500px
+    }
+}
+
+@media only screen and (max-width : 510px) {
+    .cuisine-text h4 {
+        width: 400px
+    }
+}
+
+@media only screen and (max-width : 410px) {
+    .cuisine-text h4 {
+        width: 360px
+    }
+}
+
+@media only screen and (max-width : 365px) {
+    .cuisine-text h4 {
+        width: 325px
+    }
+}
+
+@media only screen and (max-width : 330px) {
+    .cuisine-text h2 {
+        font-size: 28px !important;
+    }
+    .cuisine-text h4 {
+        width: 300px
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .cuisine-text h2 {
+        font-size: 22px !important;
+    }
+    .cuisine-text h4 {
+        width: 240px
+    }
+}

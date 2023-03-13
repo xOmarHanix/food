@@ -1,0 +1,112 @@
+.services {
+    /* text-align: center;
+    margin: 80px 60px 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services h2 {
+    color: #966589;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.services .services-desc {
+    width: 800px;
+    /* margin-left: 320px; */
+}
+
+.services .services-desc h3 {
+    color: #73848e;
+    font-weight: 500;
+    text-align: center;
+}
+
+.services .period-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.period-box .box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20px auto; */
+}
+
+.period-box .box-item .box-icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    /* margin-right: 100px; */
+}
+
+.period-box .box-item .box-icon img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.period-box .box-item h1 {
+    color: #966589;
+    font-size: 36px;
+}
+
+.period-box .box-item p {
+    color: #73848e;
+    font-weight: 300;
+    text-align: center;    
+}
+
+@media only screen and (max-width : 930px) {
+    .period-box {
+        margin-top: 20px;
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media only screen and (max-width : 810px) {
+    .services-desc {
+        width: 600px !important;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+    .period-box {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .services-desc {
+        width: 500px !important;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .services-desc {
+        width: 400px !important;
+    }
+}
+
+@media only screen and (max-width : 425px) {
+    .period-box {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .services-desc {
+        width: 350px !important;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .services-desc {
+        width: 300px !important;
+    }
+}

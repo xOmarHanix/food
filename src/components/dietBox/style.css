@@ -1,0 +1,434 @@
+.diet-box {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 60px auto !important;
+    width: 90%;
+    gap: 15px;
+}
+
+.diet-items .diet-link {
+    position: relative;
+    width: 320px;
+    height: 210px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.diet-items .diet-link .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    z-index: 2;
+    text-align: center;
+    display: none;
+}
+
+.diet-items .diet-link .overlay button  {
+    outline: none;
+    padding: 8px 35px;
+    font-size: 16px;
+    color: red;
+    background: rgba(0, 0, 0, 0.1);
+    border: 3px solid #111;
+    cursor: pointer;
+    margin-top: 90px;
+}
+
+.diet-items .diet-link:hover .overlay {
+    display: block;
+} 
+
+.diet-items .diet-link img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.diet-items .diet-text {
+    text-align: center;
+    color: #965586;
+    /* margin-right: 30px; */
+    margin-top: 10px;
+}
+
+@media only screen and (min-width : 1600px) {
+    .diet-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width :1420px) {
+    .diet-box {
+        width: 94%;
+    }
+    .diet-items .diet-link {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width :1360px) {
+    .diet-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width :1330px) {
+    .diet-box {
+        width: 93%;
+    }
+    .diet-items .diet-link {
+        width: 290px;
+        height: 190px;
+    }
+}
+
+@media only screen and (max-width :1300px) {
+    .diet-box {
+        width: 90%;
+    }
+    .diet-items .diet-link {
+        width: 280px;
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width :1260px) {
+    .diet-items .diet-link {
+        width: 270px;
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width :1220px) {
+    .diet-items .diet-link {
+        width: 260px;
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width :1180px) {
+    .diet-items .diet-link {
+        width: 250px;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width :1140px) {
+    .diet-items .diet-link {
+        width: 240px;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width :1110px) {
+    .diet-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+    .diet-items .diet-link {
+        width: 320px;
+        height: 210px;
+    }
+}
+
+@media only screen and (max-width :1110px) {
+    .diet-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        width: 90%;
+    }
+    .diet-items .diet-link {
+        width: 320px;
+        height: 210px;
+    }   
+}
+
+@media only screen and (max-width :1110px) {
+    .diet-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        width: 90%;
+    }
+    .diet-items .diet-link {
+        width: 320px;
+        height: 210px;
+    }   
+}
+
+@media only screen and (max-width :1110px) {
+    .diet-items .diet-link {
+        width: 320px;
+        height: 210px;
+    }   
+}
+
+@media only screen and (max-width :1080px) {
+    .diet-items .diet-link {
+        width: 300px;
+        height: 200px;
+    }   
+}
+
+@media only screen and (max-width :1020px) {
+    .diet-items .diet-link {
+        width: 280px;
+        height: 190px;
+    }   
+}
+@media only screen and (max-width :960px) {
+    .diet-items .diet-link {
+        width: 260px;
+        height: 180px;
+    }   
+}
+
+@media only screen and (max-width :900px) {
+    .diet-items .diet-link {
+        width: 240px;
+        height: 170px;
+    }   
+}
+
+@media only screen and (max-width :840px) {
+    .diet-items .diet-link {
+        width: 220px;
+        height: 160px;
+    }   
+}
+
+@media only screen and (max-width :780px) {
+    .diet-box {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .diet-items .diet-link {
+        width: 320px;
+        height: 210px;
+    }   
+}
+
+@media only screen and (max-width :780px) {
+    .diet-box {
+        width: 80%;
+    }
+    .diet-items .diet-link {
+        width: 300px;
+        height: 200px;
+    }   
+}
+
+@media only screen and (max-width :720px) {
+    .diet-items .diet-link {
+        width: 280px;
+        height: 180px;
+    }   
+}
+
+@media only screen and (max-width :680px) {
+    .diet-items .diet-link {
+        width: 260px;
+        height: 160px;
+    }   
+}
+
+@media only screen and (max-width :620px) {
+    .diet-box {
+        margin-left: 30px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :610px) {
+    .diet-box {
+        margin-left: 20px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :595px) {
+    .diet-box {
+        margin-left: 15px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :585px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :575px) {
+    .diet-box {
+        margin-left: 15px !important;
+        gap: 15px 30px !important;
+    }
+}
+
+@media only screen and (max-width :570px) {
+    .diet-box {
+        margin-left: 30px !important;
+        gap: 15px 40px !important;
+    }
+    .diet-items .diet-link {
+        width: 240px;
+        height: 140px;
+    }
+}
+
+@media only screen and (max-width :565px) {
+    .diet-box {
+        margin-left: 20px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :555px) {
+    .diet-box {
+        margin-left: 15px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :545px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :535px) {
+    .diet-box {
+        margin-left: 15px !important;
+        gap: 15px 30px !important;
+    }
+}
+
+@media only screen and (max-width :530px) {
+    .diet-box {
+        margin-left: 15px !important;
+        gap: 15px 20px !important;
+    }
+}
+
+@media only screen and (max-width :525px) {
+    .diet-box {
+        margin-left: 25px !important;
+        gap: 15px 40px !important;
+    }
+    .diet-items .diet-link {
+        width: 220px;
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width :520px) {
+    .diet-box {
+        margin-left: 20px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :510px) {
+    .diet-box {
+        margin-left: 15px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :500px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :490px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 30px !important;
+    }
+}
+
+@media only screen and (max-width :480px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 20px !important;
+    }
+}
+
+@media only screen and (max-width :470px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 10px !important;
+    }
+}
+
+@media only screen and (max-width :465px) {
+    .diet-box {
+        margin-left: 15px !important;
+        gap: 15px 40px !important;
+    }
+    .diet-items .diet-link {
+        width: 200px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width :460px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 40px !important;
+    }
+}
+
+@media only screen and (max-width :455px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 30px !important;
+    }
+}
+
+@media only screen and (max-width :445px) {
+    .diet-box {
+        margin-left: 10px !important;
+        gap: 15px 20px !important;
+    }
+}
+
+@media only screen and (max-width : 435px) {
+    .diet-box {
+        display: flex !important;
+        flex-direction: column ;
+        align-items: center;
+        margin: 60px auto !important;
+    }
+    .diet-items .diet-link {
+        width: 320px;
+        height: 210px;
+    }
+}
+
+@media only screen and (max-width : 350px) {
+    .diet-items .diet-link {
+        width: 280px;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .diet-items .diet-link {
+        width: 240px;
+        height: 120px;
+    }
+}
+
+
+

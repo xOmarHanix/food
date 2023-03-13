@@ -1,0 +1,154 @@
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e1ada8;
+    padding: 60px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header .logo svg {
+    font-size: 50px;
+    font-weight: 500;
+    color: #966589;
+}
+
+.header .logo h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.header .lists {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.header .lists .list-item {
+    cursor: pointer;
+}   
+
+.header .lists .list-item a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only  screen and (max-width : 790px) {
+    .header {
+        padding: 60px 20px;
+    }
+}
+
+@media only  screen and (max-width : 710px) {
+    .header {
+        padding: 60px 20px;
+    }
+    .header .logo svg {
+        font-size: 40px;
+    }
+    .header .logo h3 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width : 660px) {
+    .header .lists .list-item a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 580px) {
+    .header .logo svg {
+        font-size: 30px;
+    }
+    .header .logo h3 {
+        font-size: 24px;
+    }
+    .header .lists {
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width : 535px) {
+    .header .logo svg {
+        font-size: 30px;
+    }
+    .header .logo h3 {
+        font-size: 24px;
+    }
+    .header .lists {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .header .logo svg {
+        font-size: 20px;
+    }
+    .header .logo h3 {
+        font-size: 20px;
+    }
+    .header .lists {
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    .header .logo svg {
+        font-size: 35px;
+    }
+    .header .logo h3 {
+        display: none;
+    }
+    .header .lists {
+        gap: 15px;
+    }
+    .header .lists .list-item a {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width : 420px) {
+    .header .logo svg {
+        font-size: 35px;
+    }
+    .header .lists {
+        gap: 15px;
+    }
+    .header .lists .list-item a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 420px) {
+    .header .lists .list-item a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 340px) {
+    .header .lists .list-item a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width : 315px) {
+    .header .logo svg {
+        font-size: 25px;
+    }
+    .header .lists .list-item a {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,32 @@
+.banner-desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 35vh;
+}
+
+.banner-desc h1 {
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.banner-desc h3 {
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+    margin: 5px;
+}
+
+.banner-desc button {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    background: orangered;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #333;
+    margin-top: 10px;
+}

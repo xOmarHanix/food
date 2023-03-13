@@ -1,0 +1,458 @@
+.cuisine-type-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 60px auto;
+    width: 90%;
+    gap: 15px;
+}
+
+.cuisine-type-items .cuisine-type-links {
+    position: relative;
+    width: 320px;
+    height: 210px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.cuisine-type-items .cuisine-type-links .type-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    text-align: center;
+    z-index: 2;
+    display: none;
+}
+
+.cuisine-type-items .cuisine-type-links:hover .type-overlay {
+    display: block;
+}
+
+.cuisine-type-items .cuisine-type-links .type-overlay button {
+    outline: none;
+    padding: 8px 35px;
+    background: rgba(0, 0, 0, 0.1);
+    color: red;
+    border: 3px solid #111;
+    font-size: 16px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.cuisine-type-items .cuisine-type-links img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.cuisine-type-items .cuisine-type-text {
+    text-align: center;
+    /* margin-right: 30px; */
+}
+
+.cuisine-type-items .cuisine-type-text h3 {
+    color: #965586;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width : 1600px) {
+    .cuisine-type-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width : 1445px) {
+    .cuisine-type-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 1395px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : 1310px) {
+    .cuisine-type-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1275px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 280px;
+        height: 190px;
+    }
+    .cuisine-type-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 1210px) {
+    .cuisine-type-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 1175px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 260px;
+        height: 170px;
+    }
+    .cuisine-type-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 1130px) {
+    .cuisine-type-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1110px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 260px;
+        height: 170px;
+    }
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 1110px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 320px;
+        height: 210px;
+    }
+    .cuisine-type-box {
+        grid-template-columns: repeat(3, 1fr);
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 1060px) {
+    .cuisine-type-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 1040px) {
+    .cuisine-type-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 1020px) {
+    .cuisine-type-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .cuisine-type-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 995px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 300px;
+        height: 200px;
+    }
+    .cuisine-type-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 940px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 280px;
+        height: 180px;
+    }
+    .cuisine-type-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 940px) {
+
+    .cuisine-type-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 920px) {
+
+    .cuisine-type-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 985px) {
+
+    .cuisine-type-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 980px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 260px;
+        height: 160px;
+    }
+    .cuisine-type-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+
+    .cuisine-type-box {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 890px) {
+
+    .cuisine-type-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 870px) {
+
+    .cuisine-type-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 850px) {
+
+    .cuisine-type-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 830px) {
+
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 825px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 240px;
+        height: 140px;
+    }
+    .cuisine-type-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 790px) {
+    .cuisine-type-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 780px) {
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 780px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 330px;
+        height: 210px;
+    }
+    .cuisine-type-box {
+        grid-template-columns: repeat(2, 1fr);
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 760px) {
+    .cuisine-type-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 740px) {
+    .cuisine-type-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 710px) {
+    .cuisine-type-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 690px) {
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 680px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 310px;
+        height: 200px;
+    }
+    .cuisine-type-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 660px) {
+    .cuisine-type-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 645px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 280px;
+        height: 180px;
+    }
+    .cuisine-type-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 610px) {
+    .cuisine-type-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 595px) {
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 585px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 240px;
+        height: 140px;
+    }
+    .cuisine-type-box {
+        width: 86%;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+    .cuisine-type-box {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 540px) {
+    .cuisine-type-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 540px) {
+    .cuisine-type-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 510px) {
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 510px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 240px;
+        height: 140px;
+    }
+    .cuisine-type-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 200px;
+        height: 120px;
+    }
+    .cuisine-type-box {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 200px;
+        height: 120px;
+    }
+    .cuisine-type-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 200px;
+        height: 120px;
+    }
+    .cuisine-type-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 435px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 320px;
+        height: 210px;
+        margin: auto;
+    }
+    .cuisine-type-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+}
+
+@media only screen and (max-width : 350px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 280px;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .cuisine-type-items .cuisine-type-links {
+        width: 240px;
+        height: 120px;
+    }
+}

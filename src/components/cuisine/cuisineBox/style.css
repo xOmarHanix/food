@@ -1,0 +1,452 @@
+.cuisine-box {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 60px auto;
+    width: 90%;
+    gap: 15px;
+}
+
+ .cuisine-items .cuisine-links {
+    position: relative;
+    width: 320px;
+    height: 210px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+ .cuisine-items .cuisine-links:hover .overlay {
+    display: block;
+}
+
+ .cuisine-items .cuisine-links .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    z-index: 2;
+    text-align: center;
+    display: none;
+}
+
+ .cuisine-items .cuisine-links .overlay button {
+    outline: none;
+    padding: 8px 35px;
+    font-size: 16px;
+    color: red;
+    background: rgba(0, 0, 0, 0.1);
+    border: 3px solid #111;
+    cursor: pointer;
+    margin-top: 90px;
+}
+
+.cuisine-items .cuisine-links img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cuisine-items .cuisine-text {
+    text-align: center;
+    color: #965586;
+    /* margin-right: 30px; */
+    margin-top: 10px;
+}
+
+@media only screen and (min-width : 1600px) {
+    .cuisine-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width : 1445px) {
+    .cuisine-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 1395px) {
+    .cuisine-items .cuisine-links {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : 1310px) {
+    .cuisine-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1275px) {
+    .cuisine-items .cuisine-links {
+        width: 280px;
+        height: 190px;
+    }
+    .cuisine-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 1210px) {
+    .cuisine-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 1175px) {
+    .cuisine-items .cuisine-links {
+        width: 260px;
+        height: 170px;
+    }
+    .cuisine-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 1130px) {
+    .cuisine-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1110px) {
+    .cuisine-items .cuisine-links {
+        width: 260px;
+        height: 170px;
+    }
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 1110px) {
+    .cuisine-items .cuisine-links {
+        width: 320px;
+        height: 210px;
+    }
+    .cuisine-box {
+        grid-template-columns: repeat(3, 1fr);
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 1060px) {
+    .cuisine-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 1040px) {
+    .cuisine-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 1020px) {
+    .cuisine-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .cuisine-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 995px) {
+    .cuisine-items .cuisine-links {
+        width: 300px;
+        height: 200px;
+    }
+    .cuisine-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 940px) {
+    .cuisine-items .cuisine-links {
+        width: 280px;
+        height: 180px;
+    }
+    .cuisine-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 940px) {
+
+    .cuisine-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 920px) {
+
+    .cuisine-box {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width : 985px) {
+
+    .cuisine-box {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width : 980px) {
+    .cuisine-items .cuisine-links {
+        width: 260px;
+        height: 160px;
+    }
+    .cuisine-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 960px) {
+
+    .cuisine-box {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 890px) {
+
+    .cuisine-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 870px) {
+
+    .cuisine-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 850px) {
+
+    .cuisine-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 830px) {
+
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 825px) {
+    .cuisine-items .cuisine-links {
+        width: 240px;
+        height: 140px;
+    }
+    .cuisine-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 790px) {
+    .cuisine-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 780px) {
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 780px) {
+    .cuisine-items .cuisine-links {
+        width: 330px;
+        height: 210px;
+    }
+    .cuisine-box {
+        grid-template-columns: repeat(2, 1fr);
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 760px) {
+    .cuisine-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 740px) {
+    .cuisine-box {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width : 710px) {
+    .cuisine-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 690px) {
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 680px) {
+    .cuisine-items .cuisine-links {
+        width: 310px;
+        height: 200px;
+    }
+    .cuisine-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 660px) {
+    .cuisine-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 650px) {
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 645px) {
+    .cuisine-items .cuisine-links {
+        width: 280px;
+        height: 180px;
+    }
+    .cuisine-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 610px) {
+    .cuisine-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width : 595px) {
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 585px) {
+    .cuisine-items .cuisine-links {
+        width: 240px;
+        height: 140px;
+    }
+    .cuisine-box {
+        width: 86%;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+    .cuisine-box {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 540px) {
+    .cuisine-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width : 540px) {
+    .cuisine-box {
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width : 510px) {
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 510px) {
+    .cuisine-items .cuisine-links {
+        width: 240px;
+        height: 140px;
+    }
+    .cuisine-box {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .cuisine-items .cuisine-links {
+        width: 200px;
+        height: 120px;
+    }
+    .cuisine-box {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .cuisine-items .cuisine-links {
+        width: 200px;
+        height: 120px;
+    }
+    .cuisine-box {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width : 440px) {
+    .cuisine-items .cuisine-links {
+        width: 200px;
+        height: 120px;
+    }
+    .cuisine-box {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width : 435px) {
+    .cuisine-items .cuisine-links {
+        width: 320px;
+        height: 210px;
+    }
+    .cuisine-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width : 350px) {
+    .cuisine-items .cuisine-links {
+        width: 280px;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width : 300px) {
+    .cuisine-items .cuisine-links {
+        width: 240px;
+        height: 120px;
+    }
+}
