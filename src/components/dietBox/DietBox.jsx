@@ -1,6 +1,6 @@
 import './style.css';
 import { Link } from 'react-router-dom';
-import Img1 from '../../assets/images/diets-box/Nikki-Yelton-RD-leaky-gut-functional-medicine-gluten-free-diet-gluten-intolerance-celiac-disease-gluten-sensitivity-non-celiac-gluten-sensitivity1.png';
+import Img1 from '../../assets/images/diets-box/Nikki.png';
 import Img2 from '../../assets/images/diets-box/What_Is_The_Keto_Diet_PHOTO.jpeg.jpg';
 import Img3 from '../../assets/images/diets-box/Vegan-diet.jpg';
 import Img4 from '../../assets/images/diets-box/vegetarian1561525585.jpg';
